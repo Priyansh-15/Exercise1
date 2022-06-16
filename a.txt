@@ -1,2 +1,3 @@
 hii i am 1st file
 for conflict update
+hii i am new change after stash
