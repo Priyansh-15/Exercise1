@@ -1,2 +1,3 @@
 hiii i am 3rd file in this repo 
 Updated
+This is for conflict in file 3
