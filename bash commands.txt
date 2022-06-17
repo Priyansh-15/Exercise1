@@ -1,0 +1,96 @@
+332  git init
+  333  git status
+  334  git add .
+  335  git commit -m "First commit"
+  336  git status
+  337  git add c.txt
+  338  git commit -m "Modify 3rd file "
+  339  git status
+  340  git hist
+  341  git add d.txt
+  342  git commit -m "ADD 4TH FILE"
+  343  git add d.txt
+  344  git commit -m "Update 4TH FILE"
+  345  git log
+  346  git hist
+  347  git rm d.txt
+  348  git add .
+  349  git commit -m "Deleted 4th file "
+  350  git status
+  351  git add new.txt
+  352  git status
+  353  git restore --staged new.txt
+  354  git status
+  355  5
+  356  git status
+  357  git restore new.txt
+  358  git restore new.txt
+  359  git rm new.txt
+  360  rm new.txt
+  361  git status
+  362  git restore c.txt
+  363  git status
+  364  git status
+  365  git add .
+  366  git commit -m "Updated c.txt"
+  367  git reset --hard
+  368  git status
+  369  git log --all
+  370  git log  baba40386
+  371  git log  baba40386 -l 1
+  372  git log -l 2
+  373  git log -l 1
+  374  git shortlog
+  375  git log -l 5
+  376  git log --help
+  377  git log -n 1
+  378  git log  baba40386 -n 1
+  379  10
+  380  git co -b feature1
+  381  git  co master
+  382  git co -b feature2
+  383  git co master
+  384  git branch -d feature2
+  385  git branch
+  386  git co feature1
+  387  git status
+  388  git add .
+  389  git commit -m "Changed file 3 in feature1 branch"
+  390  git co master
+  391  git status
+  392  git add .
+  393  git commit -m "Updated file 2 in master branch "
+  394  git add .
+  395  git commit -m "Updated file 3 for conflict in master branch "
+  396  git merge feature1
+  397  git add .
+  398  git commit
+  399  gitk
+  400  git co -b feature2
+  401  git add .
+  402  git commit -m "updated file in feature 2 branch "
+  403  git status
+  404  git co master
+  405  git add .
+  406  git commit -m "updated file in master branch for conflict "
+  407  git co feature2
+  408  git rebase master
+  409  git add .
+  410  git rebase --continue
+  411  gitk
+  412  git add a.txt
+  413  git stash
+  414  git stash -list
+  415  git stash --list
+  416  git stash list
+  417  git status
+  418  git add .
+  419  git commit -m "After stash "
+  420  git stash apply
+  421  git add .
+  422  git commit
+  423  git remote add origin https://github.com/Priyansh-15/Exercise1.git
+  424  git branch -M main
+  425  git push -u origin main
+  426  gitk
+  427  git branch
